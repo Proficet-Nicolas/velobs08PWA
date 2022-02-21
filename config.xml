@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="pro.egnom.VELOBS" version="2.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>VELOBS 08</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <!--cordova-plugin-statusbar : The StatusBar object provides some functions to customize the iOS and Android StatusBar.-->
+    <plugin name="cordova-plugin-statusbar" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+    <string>Need location access to find things nearby</string>
+    </edit-config>
+    <edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
+    <string>Need location access to find things nearby</string>
+    </edit-config>
+    <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>Need camera access to take pictures</string>
+    </edit-config>
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/Icon-36.png" />
+        <icon density="mdpi" src="res/icon/Icon-48.png" />
+        <icon density="hdpi" src="res/icon/Icon-72.png" />
+        <icon density="xhdpi" src="res/icon/Icon-96.png" />
+        <icon density="xxhdpi" src="res/icon/Icon-144.png" />
+        <icon density="xxxhdpi" src="res/icon/Icon-192.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <icon height="20" src="res/icon/Icon-20.png" width="20" />
+        <icon height="29" src="res/icon/Icon-29.png" width="29" />
+        <icon height="40" src="res/icon/Icon-40.png" width="40" />
+        <icon height="48" src="res/icon/Icon-48.png" width="48" />
+        <icon height="50" src="res/icon/Icon-50.png" width="50" />
+        <icon height="55" src="res/icon/Icon-55.png" width="55" />
+        <icon height="57" src="res/icon/Icon-57.png" width="57" />
+        <icon height="58" src="res/icon/Icon-58.png" width="58" />
+        <icon height="60" src="res/icon/Icon-60.png" width="60" />
+        <icon height="72" src="res/icon/Icon-72.png" width="72" />
+        <icon height="76" src="res/icon/Icon-76.png" width="76" />
+        <icon height="80" src="res/icon/Icon-80.png" width="80" />
+        <icon height="87" src="res/icon/Icon-87.png" width="87" />
+        <icon height="88" src="res/icon/Icon-88.png" width="88" />
+        <icon height="100" src="res/icon/Icon-100.png" width="100" />
+        <icon height="114" src="res/icon/Icon-114.png" width="114" />
+        <icon height="144" src="res/icon/Icon-144.png" width="144" />
+        <icon height="120" src="res/icon/Icon-120.png" width="120" />
+        <icon height="144" src="res/icon/Icon-144.png" width="144" />
+        <icon height="152" src="res/icon/Icon-152.png" width="152" />
+        <icon height="167" src="res/icon/Icon-167.png" width="167" />
+        <icon height="172" src="res/icon/Icon-172.png" width="172" />
+        <icon height="180" src="res/icon/Icon-180.png" width="180" />
+        <icon height="196" src="res/icon/Icon-196.png" width="196" />
+        <icon height="512" src="res/icon/Icon-512.png" width="512" />
+        <icon height="1024" src="res/icon/Icon-1024.png" width="1024" />
+        <splash height="480" src="res/screen/Splash-w320.png" width="320" />
+        <splash height="960" src="res/screen/Splash-w640_960.png" width="640" />
+        <splash height="1136" src="res/screen/Splash-w640_1136.png" width="640" />
+        <splash height="1334" src="res/screen/Splash-w750.png" width="750" />
+        <splash height="1024" src="res/screen/Splash-w768_1024.png" width="768" />
+        <splash height="768" src="res/screen/Splash-w1024_768.png" width="1024" />
+        <splash height="2436" src="res/screen/Splash-w1125.png" width="1125" />
+        <splash height="2208" src="res/screen/Splash-w1242_2208.png" width="1242" />
+        <splash height="2048" src="res/screen/Splash-w1536_2048.png" width="1536" />
+        <splash height="1536" src="res/screen/Splash-w2048_1536.png" width="2048" />
+        <splash height="1242" src="res/screen/Splash-w2208.png" width="2208" />
+        <splash height="1125" src="res/screen/Splash-w2436.png" width="2436" />
+    </platform>
+</widget>

@@ -1,0 +1,67 @@
+{
+  "_from": "cordova-plugin-ios-longpress-fix",
+  "_id": "cordova-plugin-ios-longpress-fix@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-XS2ZpbYI653qclQE0N0nO6At+HE=",
+  "_location": "/cordova-plugin-ios-longpress-fix",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-ios-longpress-fix",
+    "name": "cordova-plugin-ios-longpress-fix",
+    "escapedName": "cordova-plugin-ios-longpress-fix",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ios-longpress-fix/-/cordova-plugin-ios-longpress-fix-1.1.0.tgz",
+  "_shasum": "5d2d99a5b608eb9dea725404d0dd273ba02df871",
+  "_spec": "cordova-plugin-ios-longpress-fix",
+  "_where": "/Users/seb/Applications/GITLAB/SIO/VELOBS08",
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
+  "bugs": {
+    "url": "https://github.com/EddyVerbruggen/cordova-plugin-ios-longpress-fix/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-ios-longpress-fix",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Suppresses the silly magnifying glass when longpressing your app on iOS9",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/EddyVerbruggen/cordova-plugin-ios-longpress-fix#readme",
+  "keywords": [
+    "LongPress",
+    "LongTap",
+    "Zoom",
+    "Magnification",
+    "Magnifying glass",
+    "iOS9",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-ios-longpress-fix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddyVerbruggen/cordova-plugin-ios-longpress-fix.git"
+  },
+  "version": "1.1.0"
+}

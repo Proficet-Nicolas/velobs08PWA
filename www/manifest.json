@@ -1,0 +1,38 @@
+{
+    "name":"PWA VELOBS08",
+    "short_name":"VELOBS08",
+    "description":"PWA qui permet aux cyclistes de signaler les problèmes et de proposer des améliorations sur le réseau cyclable",
+    "start_url":"index.html",
+    "display":"fullscreen",
+    "theme_color":"#b0b8bf",
+    "background_color":"#b0b8bf",
+    "icons": [
+        {
+            "src":"css/img/logo/mavilleavelo08-5.png",
+            "sizes":"32x32",
+            "type":"image/png"
+        },
+
+        {
+          "src":"css/img/logo/mavilleavelo08-3.png",
+          "sizes":"192x192",
+          "type":"image/png",
+          "purpose":"any maskable"
+      },
+
+        {
+            "src":"css/img/logo/mavilleavelo08-4.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        }
+    ],
+    "prefer_related_applications": true,
+"related_applications": [
+  {
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+  }
+]
+
+    
+}

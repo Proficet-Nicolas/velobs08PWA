@@ -1,0 +1,153 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body, #app, .slide, .flex_page, .flex_home, #mapid, #imgid {
+    height: 100%;
+    max-height: 100%;
+}
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    background: url(img/background/background.png) no-repeat center center fixed;
+    background-size: cover;
+    padding: 2%;
+}
+/*
+Common page
+*/
+.slide{
+    display: none;
+}
+.flex_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.flex_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10%;
+    min-height: 10%;
+    max-height: 10%;
+}
+.flex_max_item {
+    flex: 1;
+}
+h5 {
+    font-size: 20px;
+    margin-left: 2%;
+    width: auto;
+}
+input, select {
+    border-radius: 3px;
+    height: 4%;
+}
+textarea {
+    border-radius: 3px;
+    padding: 1%;
+    height: 10%;
+}
+.inputInfo{
+    color: gray;
+    font-style: italic;
+}
+.btn {
+    font-size: 20px;
+    color: black;
+    background-color: #ffcc00;
+    border: none;
+	border-radius: 20px;
+
+    width:80%;
+    height: 10%;
+
+    align-self: center;
+}
+.btn:active {
+    color: black;
+    background-color: #634f00;
+}
+.btnNav {
+    color: #ffcc00;
+    background-color: transparent;
+    font-size: 40px;
+    border: none;
+    height: 60px;
+    width: 60px;
+}
+.btnNav:active {
+    color: #634f00;
+}
+:required {
+	border-color: red !important;
+}
+/*
+home
+*/
+.flex_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#newOBS {
+    display: none;
+    font-size: 20px;
+    color: black;
+    background-color: #ffcc00;
+    border: none;
+	border-radius: 20px;
+
+    height: 30%;
+}
+#newOBS:active {
+    color: black;
+    background-color: #634f00;
+}
+.margeBottom {
+    margin: 2%;
+}
+#img_home {
+    width: 50%;
+}
+/*
+config
+*/
+.width-auto {
+    width: auto;
+    height: auto;
+}
+/*
+1map
+*/
+/*
+2type
+*/
+/*
+3photo
+*/
+/* Remove "No file selected" in the File Upload */
+input[type=file].hiddenText {
+    color: transparent;
+}
+#imgid{
+    overflow: hidden;
+}
+#showSelectedImage{
+    display: none;
+    width: auto;
+    height: auto;
+}
+.add-button {
+   position: absolute;
+   top: 1px;
+   left: 1px;
+}
